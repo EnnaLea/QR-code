@@ -1,0 +1,89 @@
+body{
+    /* used flex to move the content on the page */
+    display: flex;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    font-family: 'Outfit', sans-serif;
+    /* set to center the content of the body */
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+    /* items aligned colums */
+    flex-direction: column;
+    margin: 10% 10% 10% 10%;
+    height: 20%;
+}
+
+.improve{
+    font-size: 700;
+    text-align: center;
+}
+
+.content{
+    width: 400px;
+    height: 620px;
+    justify-content: center;
+    text-align: center;
+    line-height: 1rem;
+}
+
+
+.card{
+    
+    padding: 1rem 1rem 1rem;
+    border-radius: 1.5rem;
+    margin: 2%;
+    
+}
+
+.card-img-top{
+    border-radius: 1rem;
+    width: 100%;
+}
+
+.card-text{
+    padding-top: 5%;
+    color: rgb(177, 175, 175);
+    
+}
+
+
+.attribution{
+    font-size: 11px;
+    text-align: center;
+    justify-content: center;
+   
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+.card-body {
+    padding: 2rem 1rem;   
+}
+
+
+
+/* Need to push attribution class under card */
+
+
+
+
+
+
+
+
+
+
+
+/*   <style>.attribution {
+      font-size: 11px;
+      text-align: center;
+  }
+
+  .attribution a {
+      color: hsl(228, 45%, 44%);
+  }
+
+  </style> */
